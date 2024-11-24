@@ -4,6 +4,7 @@ nltk.download('stopwords')
 nltk.download('punkt')
 nltk.download('stopwords')
 nltk.download('wordnet')
+nltk.download('punkt_tab')
 import os
 import pandas as pd
 import wget
