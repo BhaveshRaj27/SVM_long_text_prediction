@@ -1,4 +1,9 @@
 import requests
+import nltk
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
 import os
 import pandas as pd
 import wget
@@ -15,10 +20,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report
 from sklearn.svm import SVC
-nltk.download('stopwords')
-nltk.download('punkt')
-nltk.download('stopwords')
-nltk.download('wordnet')
+
 train_folder = './downloaded_train_pdfs'
 backup_folder = './downloaded_pdfs'
 
