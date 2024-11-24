@@ -11,6 +11,7 @@ code and inference can be seen in [svm_classifier.ipynb](https://github.com/Bhav
 
 ## Approach summary in detail.
 ![image (11)](https://github.com/user-attachments/assets/20b4e199-f230-43c7-9a3a-ec12ac27291d)
+
 The figure above provides the overall workflow for the given problem.
 
 
@@ -31,7 +32,7 @@ The figure above provides the overall workflow for the given problem.
   ## Add image  
 - **Truncating text** -  This technique is used to tackle long text in classification problems. We take n number of words from the start and end of the document (head+ tail). There are multiple approaches such as head only, tail only, hier. mean, hier. max, hier. self-attention etc but head+ tail truncation performed best. see the [research paper](https://arxiv.org/abs/1905.05583) 
  
-Train, validation and test splitting: splitting data into train, validation and test split which help to analyze model for overfitting and under-fitting cases.
+Train, validation and test splitting: splitting data into train, validation and test split which helps to analyze the model for overfitting and under-fitting cases.
 ![image (15)](https://github.com/user-attachments/assets/5c7c54df-cebb-4763-834d-f401cf586252)
 
 - **Vectorization** - Using TF-IDF to convert text into vector format. It is a fast approach, with low latency time, which is helpful during inference and scalability. Further, it overcomes the problem of BoW by penalizing common words (low IDF), it prevents them from dominating the representation. It also adjusts term frequencies by dividing them by the total number of terms, ensuring fair comparison across documents of different lengths.
@@ -53,8 +54,11 @@ metric. Explain why you chose this particular metric.
 f1_score_train :  0.9938944038673142
 
 f1_score_validation :  0.9848576219300204
+
 f1_score_test :  0.963480668922752
+
 The f1 score for the test dataset is 0.96.
+
 ![image (14)](https://github.com/user-attachments/assets/4bdf9e55-28cc-4df3-b56c-31eb022f0f85)
 
 ### Any shortcomings and how can we improve the performance?
