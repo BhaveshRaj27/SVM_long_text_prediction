@@ -1,6 +1,8 @@
 # SVM_long_text_prediction
 code and inference can be seen in [svm_classifier.ipynb](https://github.com/BhaveshRaj27/SVM_long_text_prediction/blob/main/svm_classifier.ipynb) and inference function can be seen in [utils.py](https://github.com/BhaveshRaj27/SVM_long_text_prediction/blob/main/utils.py) in detail. App creation [file](https://github.com/BhaveshRaj27/SVM_long_text_prediction/blob/main/app.py)
 
+[Link for app](https://svm-long-text-prediction-bhavesh.streamlit.app/) 
+
 ## How long did it take to solve the problem?
  - It took me around 10 hours to solve the problem which also includes reading some research papers.
 
