@@ -4,6 +4,7 @@ code and inference can be seen in [svm_classifier.ipynb](https://github.com/Bhav
 
 
 [Link for app](https://svm-long-text-prediction-bhavesh.streamlit.app/) 
+
 Example link: (https://cdn.currentlighting.com/site/specsheet/LBUL_Colt_Spec_Sheet.pdf)
 
 For detailed understanding of all required functions see [utils.py](https://github.com/BhaveshRaj27/SVM_long_text_prediction/blob/main/utils.py)
